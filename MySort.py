@@ -31,7 +31,6 @@ def MySort(list):
     return New_list
 
 if __name__ == '__main__':
-    # L = RandomNum.Random_Num(5)
-    L = [8,2,7,9,0,789,4432,13,4354,876,3253]
+    L = RandomNum.Random_Num(5)
     list = MySort(L)
     print(list)
